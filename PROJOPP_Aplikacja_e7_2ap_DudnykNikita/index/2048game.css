@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #1c1c1c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.container {
+    width: 420px;
+    height: 420px;
+    margin-top: 100px;
+    position: relative;
+    background-color: #bbada0;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 50px  #4b4b4b;
+}
+.cell {
+    width: calc(25% - 10px);
+    height: calc(25% - 10px);
+    border-radius: 5px;
+    background-color: #cdc1b4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    font-size: 24px;
+    font-weight: bold;
+    position: absolute;
+    transition: top 0.2s ease-in-out, left 0.2s ease-in-out;
+}
+.cell {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cell[data-number="2"] {
+    background-color: #eee4da;
+    color: #776e65;
+}
+
+.cell[data-number="4"] {
+    background-color: #ede0c8;
+    color: #776e65;
+}
+
+.cell[data-number="8"] {
+    background-color: #f2b179;
+    color: white;
+}
+
+.cell[data-number="16"] {
+    background-color: #f59563;
+    color: white;
+}
+
+.cell[data-number="32"] {
+    background-color: #f67c5f;
+    color: white;
+}
+
+.cell[data-number="64"] {
+    background-color: #f65e3b;
+    color: white;
+}
+
+.cell[data-number="128"] {
+    background-color: #edcf72;
+    color: white;
+}
+
+.cell[data-number="256"] {
+    background-color: #edcc61;
+    color: white;
+}
+
+.cell[data-number="512"] {
+    background-color: #edc850;
+    color: white;
+}
+
+.cell[data-number="1024"] {
+    background-color: #edc53f;
+    color: white;
+}
+
+.cell[data-number="2048"] {
+    background-color: #edc22e;
+    color: white;
+}
